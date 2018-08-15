@@ -1,5 +1,6 @@
 package com.revature.eval.java.core;
 
+//THESE ARE MY CHANGES HAHAHAHAHAHAHAHA
 import java.time.temporal.Temporal;
 import java.util.List;
 import java.util.Map;
@@ -13,6 +14,9 @@ public class EvaluationService {
 	 * @param string
 	 * @return
 	 */
+	
+	int x = 100;
+	
 	public String reverse(String string) {
 		// TODO Write an implementation for this method declaration
 		return null;
