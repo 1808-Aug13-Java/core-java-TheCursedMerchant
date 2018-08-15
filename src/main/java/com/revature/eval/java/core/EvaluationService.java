@@ -1,6 +1,5 @@
 package com.revature.eval.java.core;
 
-//THESE ARE MY CHANGES HAHAHAHAHAHAHAHA
 import java.time.temporal.Temporal;
 import java.util.List;
 import java.util.Map;
@@ -15,11 +14,19 @@ public class EvaluationService {
 	 * @return
 	 */
 	
-	int x = 100;
-	
 	public String reverse(String string) {
 		// TODO Write an implementation for this method declaration
-		return null;
+		
+		//This string will be the reversed version of the param string
+		String reverseString = "";
+		
+		//Take in the existing string and change info of a new string
+		for(int i = string.length(); i >= 0; i--)
+		{
+			reverseString = reverseString + string.charAt(i);
+		}
+		
+		return reverseString;
 	}
 
 	/**
@@ -32,6 +39,9 @@ public class EvaluationService {
 	 */
 	public String acronym(String phrase) {
 		// TODO Write an implementation for this method declaration
+		
+		//trim out all empty space in the 
+		
 		return null;
 	}
 
